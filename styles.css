@@ -16,7 +16,8 @@ body {
   text-align: center;
 }
 
-input, button {
+input, 
+button {
   padding: 10px;
   margin: 5px;
   border: 1px solid #ccc;
