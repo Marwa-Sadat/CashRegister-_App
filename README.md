@@ -28,7 +28,7 @@ Follow the steps below to install and run the Build a Cash Register on your loca
 
 1. **Clone the Repository**:
   bash
-  git clone https://github.com/Marwa-Sadat/Build a Cash Register.git
+  git clone https://github.com/Marwa-Sadat/CashRegister-_App.git
   cd Build a Cash Register
   
 ## Usage
@@ -46,8 +46,7 @@ The program will output whether the given string is a Build a Cash Register or n
 
 ## Demo
 
-![Demo](https://github.com/Marwa-Sadat//assets/168111110/8452c9ef-2822-4ff9-9948-308115e3e49f)
-
+![Demo](https://github.com/Marwa-Sadat/CashRegister-_App/assets/168111110/e63a8a6e-42b2-4a51-b17b-1eb6e1eb16bc)
 ## Contributing
 
 We welcome contributions to this project! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request. Follow the steps below to contribute:
