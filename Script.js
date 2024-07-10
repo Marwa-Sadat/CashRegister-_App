@@ -35,7 +35,7 @@ const moneyChecker = (changeDue, statusCheck) => {
     change: [],
   };
 
-  for (let i = cid.length - 1; i >= 0; i--) {
+  for (let i = cid.length - 1; i >= 0; i -= 1) {
     const denom = cid[i][0];
     const denomValue = conversion[denom];
     const denomTotal = cid[i][1];
@@ -64,7 +64,7 @@ button.addEventListener('click', () => {
   const totalCash = calculateTotalCash(cid);
 
   if (cash < price) {
-    alert('Customer does not have enough money to purchase the item');
+    changeText.textContent = 'Customer does not have enough money to purchase the item';
     return;
   }
 
